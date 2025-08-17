@@ -2,9 +2,8 @@ import { Instagram, Twitter, Linkedin } from 'lucide-react';
 
 export default function Footer() {
   const socialLinks = [
-    { icon: <Instagram className="h-5 w-5" />, href: 'https://instagram.com/elenarose_model', label: 'Instagram' },
-    { icon: <Twitter className="h-5 w-5" />, href: 'https://twitter.com/elenarose_model', label: 'Twitter' },
-    { icon: <Linkedin className="h-5 w-5" />, href: 'https://linkedin.com/in/elenarose', label: 'LinkedIn' }
+    { icon: <Instagram className="h-5 w-5" />, href: 'https://www.instagram.com/sup_zan/', label: 'Instagram' },
+    
   ];
 
   return (

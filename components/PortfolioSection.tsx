@@ -9,67 +9,90 @@ export default function PortfolioSection() {
     { id: 'all', name: 'All Work' },
     { id: 'fashion', name: 'Fashion' },
     { id: 'editorial', name: 'Editorial' },
-    { id: 'commercial', name: 'Commercial' },
-    { id: 'beauty', name: 'Beauty' }
+    { id: 'ethnic', name: 'Ethnic' }
   ];
 
   const portfolioItems = [
     {
       id: 1,
       category: 'fashion',
-      image: 'https://images.unsplash.com/photo-1469334031218-e382a71b716b?w=400&h=600&fit=crop',
+      image: '/images/img/img/IMG-20250815-WA0004.jpg',
       title: 'Haute Couture Collection',
       description: 'Paris Fashion Week 2024'
     },
     {
       id: 2,
       category: 'editorial',
-      image: 'https://images.unsplash.com/photo-1524504388940-b1c1722653e1?w=400&h=600&fit=crop',
+      image: '/images/img/img/about-9.jpg',
       title: 'Vogue Editorial',
       description: 'Modern Minimalism Series'
     },
     {
       id: 3,
-      category: 'commercial',
-      image: 'https://images.unsplash.com/photo-1488426862026-3ee34a7d66df?w=400&h=600&fit=crop',
+      category: 'fashion',
+      image: '/images/img/img/IMG-20250815-WA0005.jpg',
       title: 'Luxury Brand Campaign',
       description: 'International Beauty Brand'
     },
     {
       id: 4,
-      category: 'beauty',
-      image: 'https://images.unsplash.com/photo-1596815064285-45ed8a9c0463?w=400&h=600&fit=crop',
+      category: 'ethnic',
+      image: '/images/img/img/IMG-20201130-WA0051.jpg',
       title: 'Beauty Portrait',
       description: 'Natural Glow Campaign'
     },
     {
       id: 5,
-      category: 'fashion',
-      image: 'https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?w=400&h=600&fit=crop',
-      title: 'Street Style',
-      description: 'Urban Fashion Shoot'
-    },
-    {
-      id: 6,
       category: 'editorial',
-      image: 'https://images.unsplash.com/photo-1492106087820-71f1a00d2b11?w=400&h=600&fit=crop',
+      image: '/images/img/img/about.jpg',
       title: 'Art Direction',
       description: 'Creative Collaboration'
     },
     {
-      id: 7,
-      category: 'commercial',
-      image: 'https://images.unsplash.com/photo-1551698618-1dfe5d97d256?w=400&h=600&fit=crop',
+      id: 6,
+      category: 'fashion',
+      image: '/images/img/img/IMG-20250815-WA0007.jpg',
       title: 'Lifestyle Brand',
       description: 'Wellness Campaign'
     },
     {
-      id: 8,
-      category: 'beauty',
-      image: 'https://images.unsplash.com/photo-1506863530036-1efeddceb993?w=400&h=600&fit=crop',
+      id: 7,
+      category: 'ethnic',
+      image: '/images/img/img/portfolio-1.jpg',
       title: 'Cosmetics Line',
       description: 'Product Campaign'
-    }
+    },
+    {
+      id: 8,
+      category: 'fashion',
+      image: '/images/img/img/portfolio-2.jpg',
+      title: 'Cosmetics Line',
+      description: 'Product Campaign'
+    },
+    {
+      id: 9,
+      category: 'fashion',
+      image: '/images/img/img/portfolio-3.jpg',
+      title: 'Cosmetics Line',
+      description: 'Product Campaign'
+    },
+    {
+      id: 10,
+      category: 'fashion',
+      image: '/images/img/img/portfolio-4.jpg',
+      title: 'Cosmetics Line',
+      description: 'Product Campaign'
+    },
+    {
+      id: 11,
+      category: 'editorial',
+      image: '/images/img/img/portfolio-6.jpg',
+      title: 'Cosmetics Line',
+      description: 'Product Campaign'
+    },
+    
+    
+    
   ];
 
   const filteredItems = activeCategory === 'all' 

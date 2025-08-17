@@ -2,13 +2,13 @@ import { ImageWithFallback } from './figma/ImageWithFallback';
 
 export default function AboutSection() {
   const stats = [
-    { label: 'Height', value: '5\'9"' },
-    { label: 'Bust', value: '34"' },
-    { label: 'Waist', value: '24"' },
-    { label: 'Hips', value: '36"' },
-    { label: 'Shoe', value: '8.5' },
-    { label: 'Hair', value: 'Blonde' },
-    { label: 'Eyes', value: 'Blue' }
+    { label: 'Height', value: '5\'2"' },
+    { label: 'Bust', value: '32"' },
+    { label: 'Waist', value: '26"' },
+    { label: 'Hips', value: '35"' },
+    { label: 'Shoe', value: 'IN 5' },
+    { label: 'Hair', value: 'Black' },
+    { label: 'Eyes', value: 'Hazel' }
   ];
 
   return (
@@ -50,7 +50,7 @@ export default function AboutSection() {
           <div className="relative">
             <div className="relative overflow-hidden rounded-lg">
               <ImageWithFallback
-                src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=600&h=800&fit=crop&crop=face"
+                src="/images/img/img/vitals.jpg"
                 alt="Sup Zan - About Portrait"
                 className="w-full h-[600px] object-cover"
               />

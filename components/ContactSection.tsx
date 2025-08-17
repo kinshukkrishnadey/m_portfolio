@@ -32,26 +32,20 @@ export default function ContactSection() {
     {
       icon: <Mail className="h-5 w-5" />,
       label: 'Email',
-      value: 'elena@elenarose.com',
-      href: 'mailto:elena@elenarose.com'
-    },
-    {
-      icon: <Phone className="h-5 w-5" />,
-      label: 'Phone',
-      value: '+1 (555) 123-4567',
-      href: 'tel:+15551234567'
+      value: 's.sup.dey@gmail.com',
+      href: 'mailto:s.sup.dey@gmail.com'
     },
     {
       icon: <MapPin className="h-5 w-5" />,
       label: 'Location',
-      value: 'New York City, NY',
+      value: 'Dubai, UAE',
       href: null
     },
     {
       icon: <Instagram className="h-5 w-5" />,
       label: 'Instagram',
-      value: '@elenarose_model',
-      href: 'https://instagram.com/elenarose_model'
+      value: '@sup_zan',
+      href: 'https://www.instagram.com/sup_zan/'
     }
   ];
 
