@@ -3,7 +3,7 @@ import { Button } from './ui/button';
 import { Input } from './ui/input';
 import { Textarea } from './ui/textarea';
 import { Card, CardContent } from './ui/card';
-import { Mail, Phone, MapPin, Instagram } from 'lucide-react';
+import { Mail,MapPin, Instagram } from 'lucide-react';
 
 export default function ContactSection() {
   const [formData, setFormData] = useState({
