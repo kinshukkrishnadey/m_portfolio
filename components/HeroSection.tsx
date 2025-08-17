@@ -6,7 +6,7 @@ export default function HeroSection() {
     <section id="home" className="relative h-screen flex items-center justify-center overflow-hidden">
       <div className="absolute inset-0 z-0">
         <ImageWithFallback
-          src="/public/images/img/img/bg.jpg"
+          src="/images/img/img/bg.jpg"
           alt="Sup Zan - Professional Model"
           className="w-full h-full object-cover"
         />
