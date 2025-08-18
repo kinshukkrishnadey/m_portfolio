@@ -16,77 +16,77 @@ export default function PortfolioSection() {
     {
       id: 1,
       category: 'fashion',
-      image: '/images/img/img/IMG-20250815-WA0004.jpg',
+      image: '/images/IMG-20250815-WA0004.jpg',
       title: 'Haute Couture Collection',
       description: 'Paris Fashion Week 2024'
     },
     {
       id: 2,
       category: 'editorial',
-      image: '/images/img/img/about-9.jpg',
+      image: '/images/about-9.jpg',
       title: 'Vogue Editorial',
       description: 'Modern Minimalism Series'
     },
     {
       id: 3,
       category: 'fashion',
-      image: '/images/img/img/IMG-20250815-WA0005.jpg',
+      image: '/images/IMG-20250815-WA0005.jpg',
       title: 'Luxury Brand Campaign',
       description: 'International Beauty Brand'
     },
     {
       id: 4,
       category: 'ethnic',
-      image: '/images/img/img/IMG-20201130-WA0051.jpg',
+      image: '/images/IMG-20201130-WA0051.jpg',
       title: 'Beauty Portrait',
       description: 'Natural Glow Campaign'
     },
     {
       id: 5,
       category: 'editorial',
-      image: '/images/img/img/about.jpg',
+      image: '/images/about.jpg',
       title: 'Art Direction',
       description: 'Creative Collaboration'
     },
     {
       id: 6,
       category: 'fashion',
-      image: '/images/img/img/IMG-20250815-WA0007.jpg',
+      image: '/images/IMG-20250815-WA0007.jpg',
       title: 'Lifestyle Brand',
       description: 'Wellness Campaign'
     },
     {
       id: 7,
       category: 'ethnic',
-      image: '/images/img/img/portfolio-1.jpg',
+      image: '/images/portfolio-1.jpg',
       title: 'Cosmetics Line',
       description: 'Product Campaign'
     },
     {
       id: 8,
       category: 'fashion',
-      image: '/images/img/img/portfolio-2.jpg',
+      image: '/images/portfolio-2.jpg',
       title: 'Cosmetics Line',
       description: 'Product Campaign'
     },
     {
       id: 9,
       category: 'fashion',
-      image: '/images/img/img/portfolio-3.jpg',
+      image: '/images/portfolio-3.jpg',
       title: 'Cosmetics Line',
       description: 'Product Campaign'
     },
     {
       id: 10,
       category: 'fashion',
-      image: '/images/img/img/portfolio-4.jpg',
+      image: '/images/portfolio-4.jpg',
       title: 'Cosmetics Line',
       description: 'Product Campaign'
     },
     {
       id: 11,
       category: 'editorial',
-      image: '/images/img/img/portfolio-6.jpg',
+      image: '/images/portfolio-6.jpg',
       title: 'Cosmetics Line',
       description: 'Product Campaign'
     },
