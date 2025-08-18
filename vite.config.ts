@@ -14,5 +14,9 @@ export default defineConfig({
       '@': path.resolve(__dirname, '.')
     }
   },
-  base: './'
+  publicDir: 'public',
+  build: {
+    copyPublicDir: true,
+    assetsDir: 'assets'
+  }
 })
