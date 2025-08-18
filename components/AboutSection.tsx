@@ -50,7 +50,7 @@ export default function AboutSection() {
           <div className="relative">
             <div className="relative overflow-hidden rounded-lg">
               <ImageWithFallback
-                src="/images/img/img/vitals.jpg"
+                src="/images/vitals.jpg"
                 alt="Sup Zan - About Portrait"
                 className="w-full h-[600px] object-cover"
               />

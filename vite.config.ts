@@ -13,5 +13,10 @@ export default defineConfig({
     alias: {
       '@': path.resolve(__dirname, '.')
     }
+  },
+  publicDir: 'public',
+  build: {
+    assetsDir: 'assets',
+    copyPublicDir: true
   }
 })
